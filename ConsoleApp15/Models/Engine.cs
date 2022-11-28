@@ -8,5 +8,9 @@ namespace ConsoleApp15.Models
 {
     internal interface Engine
     {
+        double Oilcapsity { get; set; }
+        double Currentoil { get; set; }
+        string Fueltype { get; set; }
+        void Reaminoil();
     }
 }
